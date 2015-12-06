@@ -21,7 +21,7 @@ public class Solution {
     }
  
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner s = new Scanner(new File("C:\\Users\\Alan\\Downloads\\input1.txt"));
+        Scanner s = new Scanner(new File("input1.txt"));
     
         System.out.println("Santa ends up at floor " + move(s.next()) + ".");
     }
