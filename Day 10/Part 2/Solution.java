@@ -31,7 +31,7 @@ public class Solution {
     public static void main(String[] args) throws FileNotFoundException {
         ArrayList<Integer> input = new ArrayList<>();
         
-        Scanner s = new Scanner(new File("C:\\Users\\Alan\\Downloads\\input10.txt"));
+        Scanner s = new Scanner(new File("input10.txt"));
         s.useDelimiter("");
         
         while(s.hasNext()){
